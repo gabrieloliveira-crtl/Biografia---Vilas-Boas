@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-primaria: black;
+    --cor-secundaria:#B6C4B6;
+    --cor-terciaria: #A4EA4F;
+
+    --fonte-primaria: 'krona one', sans-serif;
+    --fonte-segundaria:  "Montserrat" , sans-serif
+
+    
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+.cabecalho{ 
+    padding: 2% 0% 0% 15%;
+}
+
+.nave{
+    display: flex;
+    gap: 80px;
+}
+
+.home{
+    font-family: var(--fonte-segundaria);
+    font-size: 1,5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+
+
+
+.titulo-destaque {
+    color:  var(--cor-terciaria);
+
+}
+
+
+
+.Instagram {
+    color: #E1306C
+
+    ;
+    
+}
+
+
+.spoti {
+    color: green
+
+}
+
+.Youtube {
+    color: red;
+}
+
+
+
+
+
+
+.apresentacao{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo{
+    width: 615px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.apresentacao_titulo{
+   font-size: 2.25rem;
+   font-family: var(--fonte-primaria);
+   
+}
+
+
+.apresentacao_titulo2{
+    padding: 1%;
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    
+ }
+
+ 
+
+.apresentacao_paragrafo{
+    font-size: 1.5rem;
+    font-family:var(--fonte-segundaria);
+}
+
+.subtitulo_sub{
+   font-family: var(--fonte-primaria);
+   font-weight: 400;
+   font-size: 1.25rem;
+
+}
+.apresentacao_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+.apresentacao_botao1{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+background-color: transparent;
+color: white;
+width: 378px;
+text-align: center;
+border-radius: 8px;
+font-size: 1.25rem;
+font-weight: 600;
+padding: 21.5px 0;
+text-decoration: none;
+font-family:  var(--fonte-segundaria);
+border: 2px solid var(--cor-secundaria);
+}
+
+        .apresentacao_botao1:hover {
+            background-color: #272727;
+        }
+
+        
+        
+.ale_redondo{
+
+margin-right: 10%; 
+border-radius: 5%;
+}
+
+.logospotify{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+.botao_insta{
+ width: 24px;
+ 
+
+    
+}
+
+.botao_spoti{
+    width: 28px;
+    vertical-align: middle;
+}
+
+.botao_yotube{
+width: 27px;
+vertical-align: middle;
+}
+ 
+.h1{  
+    font-family: var(--fonte-segundaria);
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+   
+}
+
+
+.paragrafo_1{
+    font-family: var(--fonte-segundaria);
+    padding: 1%;
+
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    font-family:var(--fonte-segundaria);
+
+}
+.paragrafo_2{
+    font-family: var(--fonte-segundaria);
+    padding: 1%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    font-family: var(--fonte-segundaria);
+}
+
+    
+
+.ale_redondo2{
+  border-radius: 5%;
+width: 50%;
+height: 425px;
+
+}
+
+
